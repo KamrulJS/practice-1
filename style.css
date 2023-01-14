@@ -1,3 +1,61 @@
-.h1 {
-    font-size: 56px;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    padding: 0px 200px;
+}
+
+
+
+.nav {
+    height: 100px;
+    display: flex;
+    justify-content: space-between
+}
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5rem;
+    font-weight: 700;
+
+}
+
+.menu {
+    width: 40%;
+    display: flex;
+    font-size: 20px;
+    font-weight: 600;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    
+}
+.banner {
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+}
+.banner-content h1 {
+    font-size: 5em;
+    font-weight: 600;
+    color: rgb(39, 38, 38);
+}
+.banner-content p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+
+    color: rgb(88, 88, 88);
+}
+.btn {
+    background-color: crimson;
+    color: aliceblue;
+    font-size: 18px;
+    margin-top: 30px;
+    padding: 13px 30px;
+    border: 0;
+    border-radius: 40px;
 }
